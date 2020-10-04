@@ -13,5 +13,31 @@ body{
 }
 
 header{
-    background-image: url("./images/bg-hero-desktop.svg");
+    background-color: blue;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0 30px 0;
+}
+
+.header__nav > button{
+    height: 35px;
+    width: 160px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 2px 6px 0 #20212447;
+    background-color: white;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero_figure img{
+    background-color: red;
+    height: 350px;
+    width: 550px;
 }
