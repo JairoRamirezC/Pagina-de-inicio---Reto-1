@@ -181,7 +181,21 @@ mask-size: cover;
   /* background-color: red; */
 }
 
-.footer__socialmedia img {
+.icon-facebook1 {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.icon-instagram {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.icon-twitter {
+  font-size: 20px;
+}
+
+/* .footer__socialmedia img {
   width: 25px;
   height: 25px;
   margin-right: 10px;
@@ -189,8 +203,26 @@ mask-size: cover;
   background-color: white;
   border-radius: 50%;
   border: 2px solid #00252e;
-}
+} */
 
 .footer__container div:nth-of-type(3) {
   text-align: end;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    /* border: 8px solid green; */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    /* border: 4px solid blue; */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    /* border: 2px solid red; */
+  }
 }
